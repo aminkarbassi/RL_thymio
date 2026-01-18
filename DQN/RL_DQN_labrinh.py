@@ -16,10 +16,10 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Using device: {device}")
 
 # =========================================================
-# ZMQ REMOTE API PATH
+# ZMQ REMOTE API PATH (edit based on your path)
 # =========================================================
 sys.path.append(
-    "/home/amin/Documents/ZHAW/RL/project/CoppeliaSim_Edu/programming/zmqRemoteApi/clients/python/src"
+    "./CoppeliaSim_Edu/programming/zmqRemoteApi/clients/python/src"
 )
 import coppeliasim_zmqremoteapi_client as remote_api
 
