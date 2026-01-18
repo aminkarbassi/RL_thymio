@@ -14,6 +14,6 @@ The repository is structured such that Q-learning and DQN are implemented in sep
 
 Learned policies are deployed in a policy-only execution mode, without exploration or learning, and are prepared for transfer to a physical Thymio robot. This project therefore demonstrates a complete reinforcement learning pipeline for embodied robotics, from problem formulation and reward design to training, evaluation, and sim-to-real deployment.
 
-For more information, refer to the ProjectReport.pdf file.
+For more information, refer to the ProjectReport.pdf file which contains videos of Thymio deployment at the end.
 
 To run the codes, import the file in scene folder inside CoppeliaSim and run either DQN/RL_DQN_labyrinth.py or Qlearning/RL_Qlearning_labyrinth.py file. To deploy the learning on the simulator or thymio, the "...deployment.py" should be executed. 
