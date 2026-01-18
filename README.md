@@ -13,3 +13,5 @@ Training is performed entirely in CoppeliaSim, using the ZMQ Remote API for clos
 The repository is structured such that Q-learning and DQN are implemented in separate folders, each containing self-contained training scripts and logging utilities. Training performance is evaluated using logged metrics such as cumulative reward, collision rate, episode length, and average Q-values, as well as qualitative behavior analysis through simulation videos.
 
 Learned policies are deployed in a policy-only execution mode, without exploration or learning, and are prepared for transfer to a physical Thymio robot. This project therefore demonstrates a complete reinforcement learning pipeline for embodied robotics, from problem formulation and reward design to training, evaluation, and sim-to-real deployment.
+
+To run the codes, import the file in scene folder inside CoppeliaSim and run either DQN/RL_DQN_labyrinth.py or Qlearning/RL_Qlearning_labyrinth.py file. 
