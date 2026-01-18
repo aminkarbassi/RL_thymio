@@ -1,3 +1,5 @@
+# Reinforcement Learning for Thymio - Wall Following and Opening Detection
+ 
 This project investigates the use of reinforcement learning to enable a Thymio mobile robot to autonomously perform wall-following and side-opening detection using only onboard proximity sensors. The navigation task is formulated without global localization, maps, or handcrafted motion rules, making the learned policies suitable for deployment on a real robot with limited sensing.
 
 Two reinforcement learning approaches are implemented and compared:
